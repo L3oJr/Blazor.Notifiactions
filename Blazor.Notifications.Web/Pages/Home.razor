@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+Messages from the server 👇
+
+<ui>
+    @foreach(var message in _messages)
+    {
+        <li>
+            @message
+        </li>
+    }
+</ui>
